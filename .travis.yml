@@ -1,3 +1,5 @@
 make && make test
-language:c
-compiler: gcc
+language: c
+compiler:
+  - clang
+  - gcc
